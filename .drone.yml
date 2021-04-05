@@ -16,4 +16,4 @@ steps:
   commands:
 #   - pip install -r requirements.txt
 #   - python test.py
-  - echo $TEST_SECRET
+  - echo $${TEST_SECRET}
