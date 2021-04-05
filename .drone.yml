@@ -11,9 +11,9 @@ steps:
 - name: test
   image: python
   environment:
-  test_secret:
-    from_secret: test_secret
+    test_secret:
+      from_secret: test_secret
   commands:
-  - pip install -r requirements.txt
-  - python test.py
+#   - pip install -r requirements.txt
+#   - python test.py
   - echo $TEST_SECRET
